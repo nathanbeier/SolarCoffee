@@ -13,8 +13,6 @@ namespace SolarCoffee.Services.Inventory
 
         ProductInventory GetByProductId(int id);
 
-        void CreateSnapshot();
-
         List<ProductInventorySnapshot> GetSnapshotHistory();
     }
 }
